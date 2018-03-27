@@ -8,11 +8,17 @@
 
  
 > AVplayerItem:
+
 `+ (instancetype)playerItemWithURL:(NSURL *)URL;` 初始化视频资源方法
+
 `duration`视频总时长 （有光CMTime结构体可以自己查下）
+
 `status` 视频资源的状态  （需要监听的属性）
+
 `loadedTimeRanges` 在线视频的缓冲进度 （需要监听的属性）
+
 `playbackBufferEmpty`  进行跳转后没数据 （可选监听）
+
 `playbackLikelyToKeepUp`  进行跳转后有数据  （可选监听）
 
 
